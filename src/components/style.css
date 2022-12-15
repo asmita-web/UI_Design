@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.upcomming {
+    font-family: Quicksand;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: Center;
+    line-height: 19px;
+
+}
+
+.imagesize {
+    width: 20px;
+    height: 20px;
+}
+
+.mainclass {
+    padding: 15px;
+}
+
+.sectionone {
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    background-image: linear-gradient(to right, #0037c5, #08005f);
+    border-radius: 9px;
+    margin-top: 45px;
+    /* height: 80px;
+    width: 100%; */
+
+}
+
+.upcomming {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.booknow {
+    background-image: linear-gradient(to right, #ff8412, #d23758, #b1008a);
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+
+.newbooking {
+    font-family: Quicksand;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: Center;
+    line-height: 19px;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 9px;
+    background: #F1F1F1;
+}
+
+.middlesection {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clinic {
+    border-radius: 21px;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #ff8412, #ff8412, #B1008A);
+    border: 2px solid #E5E5E5;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    /* background: #E5E5E5; */
+}
+
+.Test {
+    border-radius: 21px;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid #E5E5E5;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #E5E5E5;
+}
+
+.imagesection {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.image {
+    border-radius: 50%;
+}
+
+.sectiontwo {
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Appointment {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: left;
+}
+
+.doctor {
+    color: red;
+}
+
+.RESCHEDULE {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 21px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 2px solid #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(to right, #8A0382, #08005f);
+
+}
+
+.VIEW {
+    border-radius: 21px;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #E5E5E5;
+    font-weight: 600;
+}
+
+.backbutton {
+    border-radius: 21px;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #E5E5E5;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mainback {
+    margin-top: 20px;
+}
+
+.world {
+    font-weight: 400;
+}
+
+.xrey {
+    font-weight: 600;
+}
+
+/* .innersection{
+    display: flex;
+} */
+
+@media screen and (max-width: 400px){
+    
+    .middlesection {
+        gap: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectiontwo {
+        align-items: center;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .RESCHEDULE {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .button {
+        border-radius: 21px;
+        color: white;
+        font-size: 15px;
+        padding: 7px 14px;
+        border: 2px solid #E5E5E5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-image: linear-gradient(to right, #8A0382, #08005f);
+    
+    }
+    
+    .VIEW {
+        border-radius: 21px;
+        color: black;
+        padding: 7px 14px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background: #E5E5E5;
+        font-weight: 600;
+    }
+
+
+    .clinic {
+        border-radius: 21px;
+        color: white;
+        padding: 7px 14px;
+        background-image: linear-gradient(to right, #ff8412, #ff8412, #B1008A);
+        border: 2px solid #E5E5E5;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+        /* background: #E5E5E5; */
+    }
+    
+    .Test {
+        border-radius: 21px;
+        color: black;
+        padding: 7px 14px;
+        border: 2px solid #E5E5E5;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background: #E5E5E5;
+    }
+
+    .sectionone {
+        padding: 15px;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        display: flex;
+        background-image: linear-gradient(to right, #0037c5, #08005f);
+        border-radius: 9px;
+        margin-top: 45px;
+        /* height: 80px;
+        width: 100%; */
+    
+    }
+
+
+    .booknow {
+        background-image: linear-gradient(to right, #ff8412, #d23758, #b1008a);
+        border: 2px solid white;
+        padding: 7px 14px;
+        border-radius: 22px;
+    }
+    
+    
+
+
+}
